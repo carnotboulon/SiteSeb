@@ -25,6 +25,19 @@ a.active {
     color: #18bc9c;
 }
 
+.color-blue
+{
+	color: #18bc9c;
+	font-weight: bold;
+}
+
+.color-grey
+{
+	color: #2c3e50;
+	font-weight: bold;
+}
+
+
 h1,
 h2,
 h3,
@@ -48,7 +61,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f000";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -81,8 +94,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #18bc9c;	/*#fff;*/
+    background: white; /*#18bc9c;*/
 }
 
 header .container {
